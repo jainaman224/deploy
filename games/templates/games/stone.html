@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title>rock paper scissor</title>
+  </head>
+  <body style="background-color:black">
+  {% load staticfiles %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static "stone.css" %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    
+      <nav class="navbar navbar-inverse">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+              <img alt="Brand" src="...">
+            </a>
+          <p class="navbar-text">Rock Paper Scissors</p>
+          <form class="navbar-form navbar-right">
+            <div class="print"> 
+              
+                <input type="text" class="inp" placeholder="Type Your Name" autocomplete="off">
+              
+                <button type="submit" class="btn btn-success sub">Submit</button>
+            </div>
+          </form>
+        </div>
+      </nav>
+
+      <div class="jumbotron jum">
+        <h1>Play Games</h1>
+        <p>Get back into your childhood and lets play rock-paper-scissors</p>
+        <a class="btn btn-success btn-lg lm" role="button" onclick="myscript()">Let's Play</a>
+      </div>
+
+      <div class='hell yo'></div>
+      <div class='hello yo'></div>
+      <div class='hel yo'><br><br><br></div>
+
+
+      <h1><div class='hi yi'></div></h1>
+      <div class='bye yo'></div>
+
+      <style type="text/css">
+      
+      </style>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script type="text/javascript" src="{% static "stone.js" %}"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
