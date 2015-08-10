@@ -12,53 +12,63 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
-<div class="col-md-4"></div>
-<div class="col-md-3 b">
-<br><br>
-<input type="text" readonly class="form-control" id="d" autocomplete='off'></input><br>
-<div class="col-md-1"></div>
-<div class="col-md-10 c">
-<button class="btn btn-warning btn1" onclick="v('(', '(')">(</button>
-<button class="btn btn-warning btn1" onclick="v(')', ')')">)</button>
-<button class="btn btn-warning btn1" onclick="pi()">pi</button>
-<button class="btn btn-warning btn1" onclick="v('ln(', 'Math.log(' )">ln</button><br>
-<button class="btn btn-warning btn1" onclick="v('sin(', 'Math.sin(' )">sin</button>
-<button class="btn btn-warning btn1" onclick="v('cos(', 'Math.cos(' )">cos</button>
-<button class="btn btn-warning btn1" onclick="v('tan(', 'Math.tan(' )">tan</button>
-<button class="btn btn-warning btn1" onclick="v('ln(', '(1/Math.log(10))*Math.log(' )">log</button><br>
-<button class="btn btn-warning btn1" onclick="v('sin*(', 'Math.asin(' )">sin*</button>
-<button class="btn btn-warning btn1" onclick="v('cos*(', 'Math.acos(' )">cos*</button>
-<button class="btn btn-warning btn1" onclick="v('tan*(', 'Math.atan(' )">tan*</button>
-<button class="btn btn-warning btn1" onclick="v('e^(', 'Math.exp(' )">e^</button><br><br>
-</div>
-<div class="col-md-1"></div>
-<div class="col-md-12 d">
-<button class="btn btn-success btn2" onclick="v('1', '1')">1</button>
-<button class="btn btn-success btn2" onclick="v('2', '2')">2</button>
-<button class="btn btn-success btn2" onclick="v('3', '3')">3</button>
-<button class="btn btn-danger btn2" onclick="c('')">ac</button>
-<button class="btn btn-danger btn2" onclick="aman()">del</button><br>
-<button class="btn btn-success btn2" onclick="v('4', '4')">4</button>
-<button class="btn btn-success btn2" onclick="v('5', '5')">5</button>
-<button class="btn btn-success btn2" onclick="v('6', '6')">6</button>
-<button class="btn btn-primary btn2" onclick="v('+', '+')">+</button>
-<button class="btn btn-primary btn2" onclick="v('-', '-')">-</button><br>
-<button class="btn btn-success btn2" onclick="v('7', '7')">7</button>
-<button class="btn btn-success btn2" onclick="v('8', '8')">8</button>
-<button class="btn btn-success btn2" onclick="v('9', '9')">9</button>
-<button class="btn btn-primary btn2" onclick="v('x', '*')">x</button>
-<button class="btn btn-primary btn2" onclick="v('%', '/')">/</button><br>
-<button class="btn btn-success btn2" onclick="v('0', '0')">0</button>
-<button class="btn btn-success btn2" onclick="v('.', '.')">.</button>
-<button class="btn btn-success btn2" onclick="v('(10^', 'Math.pow(10, ' )">exp</button>
-<button class="btn btn-primary btn2" onclick="v('rem', '%')">%</button>
-<button class="btn btn-primary btn2" onclick="e()">=</button><br>
-<br><br>
-<input type="text" readonly id="e" autocomplete='off'></input>
-</div>
-</div>
-<div class="col-md-5"></div><br>
+<div class="jumbotron container" style="background-color: transparent">
 
+	<div class="col-md-4"></div>
+	<div class="col-md-4 b">
+		<br><br>
+		<div class="col-md-12">
+			<input type="text" readonly class="form-control" id="d" autocomplete='off'></input><br>
+			<div class="col-md-12">
+			<div class="col-md-1"></div>
+			<div class="col-md-10 c">
+				<button class="btn btn-warning btn1" onclick="v('(', '(')">(</button>
+				<button class="btn btn-warning btn1" onclick="v(')', ')')">)</button>
+				<button class="btn btn-warning btn1" onclick="pi()">pi</button>
+				<button class="btn btn-warning btn1" onclick="v('ln(', 'Math.log(' )">ln</button><br>
+				<button class="btn btn-warning btn1" onclick="v('sin(', 'Math.sin(' )">sin</button>
+				<button class="btn btn-warning btn1" onclick="v('cos(', 'Math.cos(' )">cos</button>
+				<button class="btn btn-warning btn1" onclick="v('tan(', 'Math.tan(' )">tan</button>
+				<button class="btn btn-warning btn1" onclick="v('ln(', '(1/Math.log(10))*Math.log(' )">log</button><br>
+				<button class="btn btn-warning btn1" onclick="v('sin*(', 'Math.asin(' )">sin*</button>
+				<button class="btn btn-warning btn1" onclick="v('cos*(', 'Math.acos(' )">cos*</button>
+				<button class="btn btn-warning btn1" onclick="v('tan*(', 'Math.atan(' )">tan*</button>
+				<button class="btn btn-warning btn1" onclick="v('e^(', 'Math.exp(' )">e^</button><br><br>
+			</div>
+			<div class="col-md-1"></div>
+			<br>
+
+			<div class="col-md-12 d">
+				<button class="btn btn-success btn2" onclick="v('1', '1')">1</button>
+				<button class="btn btn-success btn2" onclick="v('2', '2')">2</button>
+				<button class="btn btn-success btn2" onclick="v('3', '3')">3</button>
+				<button class="btn btn-danger btn2" onclick="c('')">ac</button>
+				<button class="btn btn-danger btn2" onclick="aman()">del</button><br>
+				<button class="btn btn-success btn2" onclick="v('4', '4')">4</button>
+				<button class="btn btn-success btn2" onclick="v('5', '5')">5</button>
+				<button class="btn btn-success btn2" onclick="v('6', '6')">6</button>
+				<button class="btn btn-primary btn2" onclick="v('+', '+')">+</button>
+				<button class="btn btn-primary btn2" onclick="v('-', '-')">-</button><br>
+				<button class="btn btn-success btn2" onclick="v('7', '7')">7</button>
+				<button class="btn btn-success btn2" onclick="v('8', '8')">8</button>
+				<button class="btn btn-success btn2" onclick="v('9', '9')">9</button>
+				<button class="btn btn-primary btn2" onclick="v('x', '*')">x</button>
+				<button class="btn btn-primary btn2" onclick="v('%', '/')">/</button><br>
+				<button class="btn btn-success btn2" onclick="v('0', '0')">0</button>
+				<button class="btn btn-success btn2" onclick="v('.', '.')">.</button>
+				<button class="btn btn-success btn2" onclick="v('(10^', 'Math.pow(10, ' )">exp</button>
+				<button class="btn btn-primary btn2" onclick="v('rem', '%')">%</button>
+				<button class="btn btn-primary btn2" onclick="e()">=</button><br>
+				<br><br>
+				<input type="text" readonly id="e" autocomplete='off'></input>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4"></div><br>
+</div><br>
+
+<div class="footer">
 <div
   class="fb-like"
   data-share="true"
@@ -66,8 +76,9 @@
   data-show-faces="true">
 </div><br>
 
-<a href="book_cricket">a</a><br>
-<a href="stone">b</a>
+<a href="book_cricket">BOOK CRICKET</a><br>
+<a href="stone">STONE PAPER SCISSOR</a>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
