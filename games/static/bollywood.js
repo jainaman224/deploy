@@ -1,6 +1,6 @@
 var a,b,c,d,i;
 function ankita(){
-	var ran=Math.floor(Math.random()*31+1);
+	var ran=Math.floor(Math.random()*32+1);
 	switch (ran){
 		case 1:
 		a="K R R I S H 3 ";
@@ -124,6 +124,10 @@ function ankita(){
 
 		case 31:
 		a="W A J A H H ";
+		break;
+
+		case 32:
+		a="F U K R E Y ";
 		break;
 	}
 }
