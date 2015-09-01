@@ -11,3 +11,6 @@ def book_cricket(request):
 
 def stone(request):
 	return render(request,'games/stone.html')
+
+def bollywood(request):
+	return render(request,'games/bollywood.html')

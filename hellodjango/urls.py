@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^$',views.index),
     url(r'^book_cricket/$',views.book_cricket),
     url(r'^stone/$',views.stone),
+    url(r'^bollywood/$',views.bollywood),
 ]
