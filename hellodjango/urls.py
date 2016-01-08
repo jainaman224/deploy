@@ -20,6 +20,7 @@ from games import views
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$',views.index),
+    url(r'^calculator/$',views.calculator),
     url(r'^book_cricket/$',views.book_cricket),
     url(r'^stone/$',views.stone),
     url(r'^bollywood/$',views.bollywood),

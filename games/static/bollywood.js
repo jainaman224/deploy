@@ -5,13 +5,13 @@ function ankita(){
 		case 1:
 		a="K R R I S H 3 ";
 		break;
-		
+
 		case 2:
 		a="Y U V A ";
 		break;
 
 		case 3:
-		a="W A J O O D "		
+		a="W A J O O D "
 		break;
 
 		case 4:

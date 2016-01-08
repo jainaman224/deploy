@@ -1,9 +1,13 @@
 from django.shortcuts import render
 
+
 # Create your views here.
 from django.http import HttpResponse
 
 def index(request):
+	return render(request,'games/resume.html')
+
+def calculator(request):
 	return render(request,'games/calc.html')
 
 def book_cricket(request):
