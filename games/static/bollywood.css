@@ -1,0 +1,15 @@
+body{
+	margin-left: 20%;
+	margin-right: 25%;
+	margin-top: 8%;
+	text-align: center;
+}
+
+.btn{
+	margin-bottom: 1%;
+	text-align: center;
+}
+
+.btn2{
+	background-color: #ec407a;
+}

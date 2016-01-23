@@ -11,7 +11,6 @@
 <link rel="stylesheet" type="text/css" href="{% static "calc.css" %}">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 
 <div class="jumbotron container" style="background-color: transparent">
 
@@ -19,20 +18,8 @@
 	<div class="col-md-4 b">
 		<br><br>
 		<div class="col-md-12">
-			<input type="text" readonly class="form-control" id="d" autocomplete='off'></input><br>
+			<input type="text" readonly class="form-control" id="d" autocomplete='off' /><br>
 			<div class="col-md-12 c">
-				<a class="waves-effect waves-light btn" onclick="v('(', '(')">(</a>
-				<a class="waves-effect waves-light btn" onclick="v('(', '(')">(</a>
-				<a class="waves-effect waves-light btn" onclick="v('(', '(')">(</a>
-				<a class="waves-effect waves-light btn" onclick="v('(', '(')">(</a><br>
-				<a class="waves-effect waves-light btn" onclick="v('(', '(')">(</a>
-				<a class="waves-effect waves-light btn" onclick="v('(', '(')">(</a>
-				<a class="waves-effect waves-light btn" onclick="v('(', '(')">(</a>
-				<a class="waves-effect waves-light btn" onclick="v('(', '(')">(</a><br>
-				<a class="waves-effect waves-light btn" onclick="v('(', '(')">(</a>
-				<a class="waves-effect waves-light btn" onclick="v('(', '(')">(</a>
-				<a class="waves-effect waves-light btn" onclick="v('(', '(')">(</a>
-				<a class="waves-effect waves-light btn" onclick="v('(', '(')">(</a><br>
 				<button class="btn btn-warning btn1" onclick="v('(', '(')">(</button>
 				<button class="btn btn-warning btn1" onclick="v(')', ')')">)</button>
 				<button class="btn btn-warning btn1" onclick="pi()">pi</button>
@@ -70,12 +57,13 @@
 				<button class="btn btn-primary btn2" onclick="v('rem', '%')">%</button>
 				<button class="btn btn-primary btn2" onclick="e()">=</button><br>
 				<br><br>
-				<input type="text" readonly id="e" autocomplete='off'></input>
 			</div>
 		</div>
 	</div>
 	<div class="col-md-4"></div><br>
 </div><br>
+
+<input type="text" readonly id="e" autocomplete='off' />
 
 <div class="footer">
 	<div
@@ -83,11 +71,7 @@
 	  data-share="true"
 	  data-width="450"
 	  data-show-faces="true">
-	</div><br>
-	<a href="resume">RESUME</a><br>
-	<a href="book_cricket">BOOK CRICKET</a><br>
-	<a href="stone">STONE PAPER SCISSOR</a><br>
-	<a href="bollywood">BOLLYWOOD</a><br>
+	</div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
