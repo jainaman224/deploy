@@ -2,7 +2,7 @@ body {
 	background: #ffcdd2;
 	background: -webkit-radial-gradient(#ffcdd2, #e6ee9c, #bbdefb);
 	background: -o-radial-gradient(#ffcdd2, #e6ee9c, #bbdefb);
-	background: -moz-radial-gradient(#ffcdd2, #e6ee9c, #bbdefb);
+	background: -moz-radial-gradient(#ffcdd2, #e6ee9c, #bbdefb); /*firefox*/
 	background: radial-gradient(#ffcdd2, #e6ee9c, #bbdefb);
 	margin-left: 20%;
 	margin-right: 25%;
