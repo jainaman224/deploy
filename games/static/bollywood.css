@@ -1,21 +1,30 @@
-body{
+body {
+	background: #ffcdd2;
+	background: -webkit-radial-gradient(#ffcdd2, #e6ee9c, #bbdefb);
+	background: -o-radial-gradient(#ffcdd2, #e6ee9c, #bbdefb);
+	background: -moz-radial-gradient(#ffcdd2, #e6ee9c, #bbdefb);
+	background: radial-gradient(#ffcdd2, #e6ee9c, #bbdefb);
 	margin-left: 20%;
 	margin-right: 25%;
 	margin-top: 8%;
 	text-align: center;
 }
 
-.btn{
+.btn { 
 	margin-bottom: 1%;
 	text-align: center;
 }
 
-.btn1{
+.btn1 {
 	background-color: #7986cb;
 }
 
-.btn2{
+.btn2 {
 	background-color: #ec407a;
+}
+
+.btn3 {
+	background-color: #00c853;
 }
 
 #a, #e {
@@ -23,11 +32,20 @@ body{
 	font-size: 25px;
 }
 
+#a {
+	color: #f44336;
+}
+
+#e {
+	color: #ff5722;
+}
+
 #l {
 	font-size: 20px;
 }
 
 a {
+	color: #1a237e;
 	font-size: 15px;
 	font-family: Hind;
 }
