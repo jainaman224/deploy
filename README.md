@@ -1,19 +1,17 @@
 This is a website hosted on heroku: http://jainaman224.herokuapp.com/ . It has basic games that we use to play in our childhood.
-Fork this repository and then clone it.
+Fork this repository and then clone it. Move to clone folder.
 
-Requirements to run locally following commands are for linux or mac:
+To install Nodejs go to https://nodejs.org/en/ . Update npm if required.
+Requirements to run server locally. Following commands should be used in command line :
+
+    sudo npm install npm -g
     sudo apt-get install python
     sudo apt-get install python-pip
     pip install django
     sudo apt-get install postgresql-9.1
     sudo apt-get install python-psycopg2
     sudo apt-get install libpq-dev
-    
-To install Nodejs go to https://nodejs.org/en/ . Update npm if required .
-    sudo npm install npm -g
     npm install -g foreman
-
-Move to clone folder.
     source venv/bin/activate
     foreman start
 
